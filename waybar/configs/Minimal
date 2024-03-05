@@ -1,6 +1,4 @@
-/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
-
-// ### Minimal - Long ### //
+// ### Minimal ### //
 
 {
 "include": "~/.config/waybar/modules",
@@ -18,22 +16,17 @@
 
 "modules-left": [
         "hyprland/workspaces#pacman",
-	"custom/separator#blank_2",
-	"mpris",
-	"custom/swaync",
-	"tray",
+        "custom/separator#blank_2",
+        "group/motherboard",
 	],
 "modules-center": [
 	"clock",
 	],
 "modules-right": [
-	"group/motherboard",
-	"custom/separator#blank_2",
-	"group/laptop",
-	"custom/separator#blank_2",
-	"group/audio",
+	"tray",
+        "custom/separator#blank_2",
+        "group/audio",
 	"custom/separator#blank_2",
 	"custom/power",
 	],
-
 }
