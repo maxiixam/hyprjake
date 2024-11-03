@@ -1,62 +1,54 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: FantasqueSansMono Nerd Font;
-    font-size: 17px;
+    font-family: "JetBrainsMono", "FontAwesome";
+    font-size: 16px;
     min-height: 0;
 }
 
 #waybar {
     background: transparent;
     color: #00ff99;
-    margin: 5px 5px;
+    margin: 2px 2px;
 }
 
-
-
 #workspaces {
-  border-radius: 1rem;
-  margin: 5px;
-  background-color: #313244;
+  margin: 2px;
   margin-left: 1rem;
 }
 
 #workspaces button {
   color: #00ff99;
-  border-radius: 1rem;
-  padding: 0.4rem;
 }
 
 #workspaces button.active {
   color: #ffffff;
-  border-radius: 1rem;
 }
 
+#workspaces button:hover {
+  box-shadow: none;
+  border: none;
+}
+
+#cpu,
 #clock,
 #network,
 #pulseaudio,
 #wireplumber,
 #tray {
-  background-color: #313244;
-  padding: 0.5rem 1rem;
-  margin: 5px 0;
+  padding: 1rem;
 }
 
 #clock {
   color: #00ff99;
-  border-radius: 0px 1rem 1rem 0px;
-  margin-right: 1rem;
 }
 
 #pulseaudio {
   color: #00ff99;
-  border-radius: 1rem 0px 0px 1rem;
-  margin-left: 1rem;
 }
 
-#tray {
-  margin-right: 1rem;
-  border-radius: 1rem;
-}
 #network {
   color: #00ff99;
+}
+#cpu {
+  margin-right: 1rem;
 }
