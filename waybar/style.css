@@ -3,17 +3,18 @@
     font-family: "JetBrainsMono", "FontAwesome";
     font-size: 16px;
     min-height: 0;
+    min-width: 0;
 }
 
-#waybar {
-    background: transparent;
+window#waybar {
+    background-color: #000000;
     color: #00ff99;
-    margin: 2px 2px;
+    border-radius: 12;
+    border: 1px solid #00ff99;
 }
 
 #workspaces {
-  margin: 2px;
-  margin-left: 1rem;
+  margin-left: 5px;
 }
 
 #workspaces button {
@@ -29,13 +30,12 @@
   border: none;
 }
 
-#cpu,
 #clock,
 #network,
 #pulseaudio,
 #wireplumber,
 #tray {
-  padding: 1rem;
+  padding: 5px;
 }
 
 #clock {
@@ -48,7 +48,6 @@
 
 #network {
   color: #00ff99;
+  margin-right: 5px;
 }
-#cpu {
-  margin-right: 1rem;
-}
+
